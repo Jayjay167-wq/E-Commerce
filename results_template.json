@@ -1,0 +1,21 @@
+{
+  "case": "case1",
+  "model": "xgboost",
+  "author": "ten_ban",
+  "features": ["add_count", "remove_count", "view_count"],
+  "n_features": 3,
+  "split": "mo ta cach chia train/test, ti le, seed",
+  "best_params": {},
+  "metrics_test": {
+    "rmse": 0.0,
+    "mse": 0.0,
+    "mae": 0.0,
+    "r2": 0.0
+  },
+  "cv_5fold": {
+    "rmse_mean": 0.0,
+    "rmse_std": 0.0
+  },
+  "notebook": "notebooks/case1_xgb_ten.ipynb",
+  "notes": ""
+}
